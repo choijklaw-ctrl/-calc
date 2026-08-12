@@ -1,0 +1,16 @@
+> streamlit
+    > pandas
+    > ```
+  
+
+  
+    1. [Streamlit Community Cloud](https://share.streamlit.io)에 접속하여 GitHub 계정으로 로그인합니다.
+    2. **"New app"** 버튼을 누릅니다.
+    3. 방금 만든 GitHub Repository, Branch(`main`), Repository 파일명(`app.py`)을 선택한 후 **"Deploy!"**를 클릭합니다.
+  
+
+  
+    1. 약 1~2분 후 웹 브라우저에서 실행되는 계산기 페이지 URL이 생성됩니다.  
+       *(예: `[https://your-app-name.streamlit.app](https://your-app-name.streamlit.app)`)*
+    2. **iFrame 허용 설정 (필수)**  
+       Streamlit의 경우 외부 블로그나 웹사이트에 퍼가기를 허용하려면 `[https://your-app-name.streamlit.app/?embed=true](https://your-app-name.streamlit.app/?embed=true)`와 같이 URL 뒤에 `?embed=true` 파라미터를 붙여 사용해야 외부 프레임에 정상 표시됩니다.
